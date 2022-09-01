@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   post '/spices', to: 'spices#create'
   patch '/spices/:id', to: 'spices#update'
   delete 'spices/:id', to: 'spices#destroy'
+
+  # resources :spices
 end
